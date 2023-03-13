@@ -59,6 +59,7 @@
 .icon-menu.open .vector:nth-child(1){
   top: 10px;
   transform: rotate(45deg);
+  background-color: white;
 }
 
 .icon-menu.open .vector:nth-child(2){
@@ -68,6 +69,7 @@ opacity: 0;
 .icon-menu.open .vector:nth-child(3){
   top: 10px;
   transform: rotate(-45deg);
+  background-color: white;
 }
 
   .Navbar {
