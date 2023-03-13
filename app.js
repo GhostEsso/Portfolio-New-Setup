@@ -1,5 +1,14 @@
-const burger = document.querySelector('.menu');
+const menuHamburger = document.querySelector('.icon-menu');
+const navLinks = document.querySelector('.links');
 
-menu.addEventListener('click', ()=> {
-    menu.classList.toggle('active');
-})
+menuHamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-menu');
+});
+
+const iconMenu = document.querySelector('.icon-menu');
+const menuLinks = document.querySelector('.links');
+
+iconMenu.addEventListener('click', () => {
+  menuLinks.classList.toggle('open');
+  iconMenu.classList.toggle('open');
+});
