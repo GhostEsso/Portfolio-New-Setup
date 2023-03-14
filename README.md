@@ -203,6 +203,8 @@ CONTRIBUTING
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+- Github: [@tGemechis7](https://github.com/tGemechis7)
+
 - Github: [@Abbas_sDev](https://github.com/AbbasSarwar)
 - Twitter: [@Abbas_sDev](https://twitter.com/Abbas_sDev)
 - LinkedIn: [Abbas Sarwar](https://www.linkedin.com/in/abbas-sarwar-4a0b16257/)
