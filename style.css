@@ -284,6 +284,10 @@
     margin-bottom: 20%;
   }
 
+  .wo-section img {
+    max-width: 100%;
+}
+
   .langs-langs {
     position: relative;
   }

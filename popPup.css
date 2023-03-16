@@ -1,17 +1,14 @@
 .w-m-c {
   background-color: rgba(193, 199, 208, 0.9);
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
-  backdrop-filter: blur(8px); /* Flouter l'arrière-plan */
-  -webkit-backdrop-filter: blur(8px); /* pour la compatibilité avec navigateurs Webkit/blink (Chrome, Safari) */
+  backdrop-filter: blur(8px); 
 }
 
 .pop {
@@ -21,6 +18,12 @@
   animation-fill-mode: forwards;
   z-index: 200;
   max-width: 100%;
+}
+
+.ul-work {
+  border-bottom: 1px solid #b1b1b1;
+  width: max-content;
+  padding-bottom: 4%;
 }
 
 .badge {
@@ -52,6 +55,10 @@
 
 .w-m-h img {
   height: 45vh;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .work-re {
@@ -73,6 +80,7 @@
     background-color: rgba(193, 199, 208, 0.9);
     height: 120vh;
     position: fixed;
+    border-radius: 10px;
   }
 
   .work-re {
@@ -82,6 +90,12 @@
 
   .paragraph {
     font-size: 14px;
+  }
+
+  .ul-work {
+    border-bottom: 1px solid #cccccc;
+    width: max-content;
+    padding-bottom: 4%;
   }
 
   .ul-work ul li {
