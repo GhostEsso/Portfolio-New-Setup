@@ -13,7 +13,7 @@
     transform: translate(20px);
   }
 
-  .w-section1,
+  .wo-section1,
   .a-langs ul li {
     transition: 0.5s 0.1s;
   }
@@ -27,8 +27,8 @@
     transition: 0.4s;
   }
 
-  .w-section1:hover,
-  .w-section4:hover,
+  .wo-section1:hover,
+  .wo-section4:hover,
   .a-langs ul li:hover {
     transform: scale(1.1);
   }

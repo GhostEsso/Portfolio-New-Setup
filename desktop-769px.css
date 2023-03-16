@@ -119,11 +119,11 @@
     line-height: 28px;
   }
 
-  .w-section1 img {
+  .wo-section1 img {
     height: 40vh;
   }
 
-  .w-section4 img {
+  .wo-section4 img {
     height: 40vh;
   }
 
@@ -145,7 +145,7 @@
     margin-top: 80px;
   }
 
-  .w-section {
+  .wo-section {
     display: flex;
     flex-direction: row;
     background-color: #fff;
@@ -155,7 +155,7 @@
     border-radius: 10px;
   }
 
-  .w-section1 {
+  .wo-section1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +163,7 @@
     margin-right: 10px;
   }
 
-  .w-section2 {
+  .wo-section2 {
     padding-top: 15px;
     width: 50%;
     display: flex;
@@ -171,7 +171,7 @@
     padding-left: 20px;
   }
 
-  .w-section3 {
+  .wo-section3 {
     padding-top: 15px;
     width: 50%;
     display: flex;
@@ -179,7 +179,7 @@
     padding-left: 20px;
   }
 
-  .w-section4 {
+  .wo-section4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +201,7 @@
     display: inline-block;
   }
 
-  .w-details ul {
+  .w-detail ul {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -210,7 +210,7 @@
     list-style: none;
   }
 
-  .w-details ul li {
+  .w-detail ul li {
     padding: 0 5px;
     font-weight: 500;
   }
