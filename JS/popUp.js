@@ -5,6 +5,7 @@ const projs = [
   {
     title: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgMBV/Snapshoot 2.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -15,6 +16,7 @@ const projs = [
   {
     title: 'Multi Posting',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgMBV/Snapshoot 3.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -25,6 +27,7 @@ const projs = [
   {
     title: 'Facebook 360',
     description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgMBV/Snapshoot 4.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -35,6 +38,7 @@ const projs = [
   {
     title: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgMBV/Snapshoot 1.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -42,7 +46,7 @@ const projs = [
     details: [' CANOPY • UBER LEADER BOARD • 2015'],
   },
 ];
-// Créez une fonction qui va créer le HTML de chaque projet.
+// Créer une fonction qui va créer le HTML de chaque projet.
 for (let i = 0; i < projs.length; i += 1) {
   workCont.innerHTML += `<section class="wo-section">
       <div class="">
@@ -70,8 +74,7 @@ for (let i = 0; i < projs.length; i += 1) {
       </div>
     </section>`;
 }
-
-// add click event listeners to all the "See Project" buttons
+//fenêtre pop-up
 for (let i = 0; i < projs.length; i += 1) {
   const btnx = document.querySelectorAll(`[id=btn-${[i]}]`);
   btnx.forEach((btx) => {
@@ -93,7 +96,7 @@ for (let i = 0; i < projs.length; i += 1) {
                   <div class="col-12">
                     <div class="row d-flex flex-row">
                       <div class="col-md-8">
-                        <p class="paragraph pb-2">${projs[i].description}</p> 
+                        <p class="paragraph pb-2">${projs[i].longDescription}</p> 
                       </div>
                       <div class="col-md-4 d-flex flex-column">
                         <ul class="list-inline ul-work">
