@@ -4,7 +4,7 @@ const workCont = document.querySelector('.w-container');
 const projs = [
   {
     title: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     image: 'imgMBV/Snapshoot 2.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -14,7 +14,7 @@ const projs = [
 
   {
     title: 'Multi Posting',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: 'imgMBV/Snapshoot 3.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -24,7 +24,7 @@ const projs = [
 
   {
     title: 'Facebook 360',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not',
+    description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     image: 'imgMBV/Snapshoot 4.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
@@ -34,7 +34,7 @@ const projs = [
 
   {
     title: 'Uber Navigation',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     image: 'imgMBV/Snapshoot 1.png',
     technologies: ['html', 'css', 'javaScript'],
     liveLink: 'https://ghostesso.github.io/Portfolio-New-Setup/',
