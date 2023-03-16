@@ -257,6 +257,10 @@
     flex-direction: row;
   }
 
+  .wo-section img {
+    max-width: 100%;
+  }
+
   .socials a img {
     width: 19px;
     height: 19px;
@@ -283,10 +287,6 @@
     gap: 10px;
     margin-bottom: 20%;
   }
-
-  .wo-section img {
-    max-width: 100%;
-}
 
   .langs-langs {
     position: relative;
