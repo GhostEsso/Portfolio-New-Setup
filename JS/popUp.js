@@ -100,7 +100,7 @@ for (let i = 0; i < projs.length; i += 1) {
                       </div>
                       <div class="col-md-4 d-flex flex-column">
                         <ul class="list-inline ul-work">
-                          ${projs[i].technologies.map((m) => `<li class="list-inline-item bagde bg-info text-primary"><a class="text-decoration-none text-dark" href="#">${m}</a></li>`).join('')}
+                          ${projs[i].technologies.map((m) => `<li class="list-inline-item bagde bg-primary text-primary"><a class="text-decoration-none text-dark" href="#">${m}</a></li>`).join('')}
                         </ul>
                         <div class="d-flex flex-row col-md-10 gap-2 pb-2">
                           <a href="${projs[i].liveLink}" class="btn btn-outline-primary text-decoration-none">See Live<i class="fa-solid fa-arrow-up-right-from-square"></i></a>

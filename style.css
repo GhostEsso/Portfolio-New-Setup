@@ -233,6 +233,7 @@
     padding: 10vh 5vh;
     flex-direction: column;
     background-color: #fff;
+    margin-bottom: 20%;
   }
 
   .first-heading h1 {
@@ -280,6 +281,7 @@
     grid-template-columns: 100%;
     background-color: #fff;
     gap: 10px;
+    margin-bottom: 20%;
   }
 
   .langs-langs {
