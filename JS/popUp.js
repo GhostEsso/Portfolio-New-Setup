@@ -74,7 +74,7 @@ for (let i = 0; i < projs.length; i += 1) {
       </div>
     </section>`;
 }
-//fenêtre pop-up
+// fenêtre pop-up
 for (let i = 0; i < projs.length; i += 1) {
   const btnx = document.querySelectorAll(`[id=btn-${[i]}]`);
   btnx.forEach((btx) => {
