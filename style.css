@@ -305,10 +305,11 @@
   }
 
   .card1 {
-    background-image: url(/imgMBV/Snapshoot\ 2.png);
+    background-image: url(/images/Snapshoot\ Portfolio-2.png);
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
+    padding: 10px;
   }
 
   .w-topic {
@@ -406,24 +407,24 @@
   }
 
   .card2 {
-    background-image: url('/imgMBV/Snapshoot\ 3.png');
+    background-image: url('/images/Snapshoot\ Portfolio3.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .card3 {
-    background-image: url('/imgMBV/Snapshoot\ 4.png');
+    background-image: url('/images/Snapshoot\ Portfolio4.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .card4 {
-    background-image: url('/imgMBV/Snapshoot\ 1.png');
+    background-image: url('/images/Snapshoot\ Portfolio1.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .about {

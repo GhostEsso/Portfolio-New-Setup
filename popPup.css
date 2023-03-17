@@ -1,5 +1,5 @@
 .w-m-c {
-  background-color: rgba(193, 199, 208, 0.9);
+  background-color: rgba(217, 219, 223, 0.9);
   height: 100%;
   width: 100%;
   z-index: 100;
@@ -8,7 +8,7 @@
   left: 0;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(2px);
 }
 
 .pop {
@@ -75,6 +75,63 @@
   float: right;
 }
 
+@media screen and (min-width: 769px) {
+  .w-m-c {
+    background-color: rgba(193, 199, 208, 0.9);
+    height: 120vh;
+    position: fixed;
+    border-radius: 10px;
+  }
+
+  .w-m-h img {
+    object-fit: fill;
+    width: 100%;
+    height: 42vh;
+    padding-top: 0;
+  }
+
+  .work-re {
+    position: relative;
+    height: 80vh;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 4%;
+    border-radius: 10px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+  .ul-work {
+    border-bottom: 1px solid #ccc;
+    width: min-content;
+    padding-bottom: 4%;
+  }
+
+  .ul-work ul li {
+    font-size: 8px;
+    display: flex;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes display {
+    0% {
+      top: -100vh;
+    }
+
+    100% {
+      top: -35px;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .w-m-c {
     background-color: rgba(193, 199, 208, 0.9);
@@ -86,6 +143,7 @@
   .work-re {
     position: relative;
     height: 100vh;
+    border-radius: 10px;
   }
 
   .paragraph {

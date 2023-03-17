@@ -141,8 +141,9 @@
     grid-template-columns: repeat(1, 80%);
     grid-template-rows: repeat(4, 60vh);
     justify-content: center;
-    gap: 80px;
     margin-top: 80px;
+    gap: 60px;
+    background-color: #e5e5e5;
   }
 
   .wo-section {
@@ -153,6 +154,7 @@
     align-items: center;
     padding: 0 10px;
     border-radius: 10px;
+    gap: 5%;
   }
 
   .wo-section1 {
@@ -161,10 +163,11 @@
     align-items: center;
     width: 50%;
     margin-right: 10px;
+    padding-top: 15px;
   }
 
   .wo-section2 {
-    padding-top: 15px;
+    padding-top: 20px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -172,7 +175,7 @@
   }
 
   .wo-section3 {
-    padding-top: 15px;
+    padding-top: 20px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -184,6 +187,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    padding-top: 20px;
   }
 
   .w-topic {
