@@ -5,11 +5,7 @@ const mailInput = document.querySelector('#mail');
 const msgInput = document.querySelector('#msg');
 
 // Créer un objet utilisateur vide
-let user = {
-  userName: '',
-  email: '',
-  msg: ''
-};
+
 
 // Ajouter un gestionnaire d'événements à chaque fois que les champs sont modifiés
 form.addEventListener('input', () => {
