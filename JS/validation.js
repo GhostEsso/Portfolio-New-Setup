@@ -17,7 +17,7 @@ function checkInputs() {
   const emailValue = email.value.trim();
 
   if (/[A-Z]/.test(emailValue)) {
-    error(email, 'Please must be in lowercase only');
+    error(email, 'Please must be in lowercase only, the form was not sent');
   }
 }
 
