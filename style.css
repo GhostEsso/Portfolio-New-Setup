@@ -44,6 +44,15 @@
     transform: translate(-50%, -50%);
   }
 
+  .close {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    right: 10px;
+    font-size: 35px;
+    color: #fff;
+  }
+
   .vector {
     position: absolute;
     border-radius: 10px;
@@ -194,7 +203,7 @@
     border-radius: 5px;
   }
 
-  .w-details ul li {
+  .w-detail ul li {
     padding: 0 5px;
   }
 
@@ -224,6 +233,7 @@
     padding: 10vh 5vh;
     flex-direction: column;
     background-color: #fff;
+    margin-bottom: 20%;
   }
 
   .first-heading h1 {
@@ -247,6 +257,10 @@
     flex-direction: row;
   }
 
+  .wo-section img {
+    max-width: 100%;
+  }
+
   .socials a img {
     width: 19px;
     height: 19px;
@@ -256,7 +270,7 @@
     padding: 11px 0;
   }
 
-  .w-container {
+  .wo-container {
     display: grid;
     grid-template-rows: repeat(4, 90vh);
     gap: 50px;
@@ -264,24 +278,25 @@
     margin-bottom: 50px;
   }
 
-  .w-section {
+  .wo-section {
     display: grid;
     padding: 5vh 5vw;
     border-radius: 10px;
     grid-template-columns: 100%;
     background-color: #fff;
-    gap: 5px;
+    gap: 10px;
+    margin-bottom: 20%;
   }
 
   .langs-langs {
     position: relative;
   }
 
-  .w-section1 {
+  .wo-section1 {
     display: none;
   }
 
-  .w-section4 {
+  .wo-section4 {
     display: none;
   }
 
@@ -290,10 +305,11 @@
   }
 
   .card1 {
-    background-image: url(/images/Snapshoot\ Portfolio1.png);
+    background-image: url(/images/Snapshoot\ Portfolio-2.png);
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
+    padding: 10px;
   }
 
   .w-topic {
@@ -310,7 +326,7 @@
     background-color: #fff;
   }
 
-  .w-details ul {
+  .w-detail ul {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -391,24 +407,24 @@
   }
 
   .card2 {
-    background-image: url(/images/Snapshoot\ Portfolio-2.png);
+    background-image: url('/images/Snapshoot\ Portfolio3.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .card3 {
-    background-image: url(/images/Snapshoot\ Portfolio3.png);
+    background-image: url('/images/Snapshoot\ Portfolio4.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .card4 {
-    background-image: url(/images/Snapshoot\ Portfolio4.png);
+    background-image: url('/images/Snapshoot\ Portfolio1.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
   }
 
   .about {
@@ -597,5 +613,44 @@
 
   .box-icon {
     display: none;
+  }
+}
+
+@keyframes display {
+  0% {
+    top: -100vh;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+
+  .t-heading {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .t-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #172b4d;
+    font-weight: bolder;
+    font-size: 32px;
+    padding: 0 5px;
+    z-index: 0;
+  }
+
+  .socials {
+    display: flex;
+  }
+
+  .socials a {
+    padding: 0 7px;
+    margin: 2px;
   }
 }

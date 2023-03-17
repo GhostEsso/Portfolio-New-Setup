@@ -1,0 +1,182 @@
+.w-m-c {
+  background-color: rgba(217, 219, 223, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.pop {
+  animation-name: display;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  z-index: 200;
+  max-width: 100%;
+}
+
+.ul-work {
+  border-bottom: 1px solid #b1b1b1;
+  width: max-content;
+  padding-bottom: 4%;
+}
+
+.badge {
+  background-color: #ebebff !important;
+}
+
+.badge a {
+  color: #6070ff !important;
+}
+
+@keyframes display {
+  0% {
+    top: -100vh;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.fa-circle {
+  font-size: 14px;
+  color: #c1c7d0;
+}
+
+.li-first {
+  color: #7a869a;
+}
+
+.w-m-h img {
+  height: 45vh;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.work-re {
+  position: relative;
+}
+
+.closeit {
+  position: absolute;
+  font-size: 18px;
+  top: 10px;
+}
+
+.closeit i {
+  float: right;
+}
+
+@media screen and (min-width: 769px) {
+  .w-m-c {
+    background-color: rgba(193, 199, 208, 0.9);
+    height: 120vh;
+    position: fixed;
+    border-radius: 10px;
+  }
+
+  .w-m-h img {
+    object-fit: fill;
+    width: 100%;
+    height: 42vh;
+    padding-top: 0;
+  }
+
+  .work-re {
+    position: relative;
+    height: 80vh;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 4%;
+    border-radius: 10px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+  .ul-work {
+    border-bottom: 1px solid #ccc;
+    width: min-content;
+    padding-bottom: 4%;
+  }
+
+  .ul-work ul li {
+    font-size: 8px;
+    display: flex;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes display {
+    0% {
+      top: -100vh;
+    }
+
+    100% {
+      top: -35px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .w-m-c {
+    background-color: rgba(193, 199, 208, 0.9);
+    height: 120vh;
+    position: fixed;
+    border-radius: 10px;
+  }
+
+  .work-re {
+    position: relative;
+    height: 100vh;
+    border-radius: 10px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .ul-work {
+    border-bottom: 1px solid #ccc;
+    width: max-content;
+    padding-bottom: 4%;
+  }
+
+  .ul-work ul li {
+    font-size: 8px;
+  }
+
+  .w-m-h img {
+    width: 50%;
+    height: 30vh;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes display {
+    0% {
+      top: -100vh;
+    }
+
+    100% {
+      top: -35px;
+    }
+  }
+}
