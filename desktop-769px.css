@@ -19,18 +19,13 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 4vh 5vh;
-    background-color: #fff;
-  }
-
-  header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fff;
-    padding: 10px;
     z-index: 999;
-  }  
+  }
 
   .logo a {
     font-family: 'Poppins', sans-serif;
