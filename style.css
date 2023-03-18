@@ -229,7 +229,7 @@
     display: flex;
     background-image: url(images/header-shapes\ mobile.png);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     padding: 10vh 5vh;
     flex-direction: column;
     background-color: #fff;
