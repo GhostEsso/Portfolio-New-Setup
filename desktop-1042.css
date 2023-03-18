@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width: 2000px) {
+@media only screen and (min-width: 1042px) and (max-width: 5000px) {
   * {
     margin: 0;
     padding: 0;
@@ -21,6 +21,16 @@
     padding: 4vh 5vh;
     background-color: #fff;
   }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 999;
+  }  
 
   .logo a {
     font-family: 'Poppins', sans-serif;
